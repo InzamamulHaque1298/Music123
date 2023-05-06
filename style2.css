@@ -1,0 +1,195 @@
+html{
+    
+    background-image: url('a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+   margin: 0px;
+   padding: 0px;
+  height: 50px;
+}
+.box1{
+   
+    width :20%;
+
+    height: 50px;
+}
+.box2{
+    display: flex;
+    width :60%;
+
+    height: 50px;
+    justify-content: center;
+}
+img{
+    width:40px;
+    height:40px;
+    margin-right: 5px;
+}
+.Name{
+font-size: 35px;
+font-family:'Times New Roman', Times, serif
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width :20%;
+
+    height: 50px;
+   
+}
+.icon{
+    font-size: 30px;
+    color: red;
+}
+.comment{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+#content{
+    display: flex;
+    list-style-type: none;
+   align-items: center;
+  
+  
+
+}
+#nav{
+    display: block;
+   
+    min-width: 50px;
+    text-align: center;
+    background-color: pink;
+}
+li a{
+   
+   padding: 5px 15px;
+   margin: 10px;
+    font-size: 15px;
+ border-radius: 4px;
+ 
+    
+   
+    
+}
+
+li:hover{
+    color: rgb(5, 4, 24);
+    text-shadow: 2px 2px 2px rgb(234, 182, 12);
+ 
+}
+#nav:hover{
+    background-color: white;
+}
+.Body{
+    width:100%;
+    height:500px;
+   
+}
+.main{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 0, 132);
+    text-shadow: 2px 2px 4px gold;
+}
+.Artist{
+    display: flex;
+height: 400px;
+    color:rgb(177, 22, 22);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   align-items: center;
+ 
+}
+.A1{
+    border: 2px solid black;
+    width:200px;
+    height:200px;
+    
+    margin: 20px;
+
+}
+.Playlist{
+    width: 100%;
+    height: 500px;
+   
+}
+.songs{
+    font-size: 30px;
+    text-align: center;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 0, 132);
+    text-shadow: 2px 2px 4px gold;
+}
+.Tracks{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.Audio{
+    border: 2px solid black;
+    width: 800px;
+    margin: 10px;
+    height: 400px;
+ 
+}
+#play{
+    list-style-type: none;
+}
+.Video{
+    border: 2px solid black;
+    width:800px;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.S{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 0, 132);
+    text-shadow: 2px 2px 4px gold;
+}
+span{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(14, 2, 7);
+    text-shadow: 2px 2px 4px gold;
+}
+#play1 {
+    border: 1px solid;
+    width:80px;
+    height: 20px;
+    margin-top:10px ;
+    border-radius: 4px;
+list-style-type: none;
+background-color: bisque;
+text-align: center;
+
+}
+.VidBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.V{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 0, 132);
+    text-shadow: 2px 2px 4px gold;
+   
+}
+
+a{
+    text-decoration: none;
+}
